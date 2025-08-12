@@ -1,4 +1,3 @@
-# main.py
 from pathlib import Path
 from wordle.wordlist import WordList
 from wordle.game import WordleGame

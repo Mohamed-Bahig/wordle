@@ -1,10 +1,7 @@
-# wordle/wordlist.py
 from pathlib import Path
 import random
 from typing import List, Set
 
-# Debug line (optional) - you can remove after verifying imports
-# print("Loaded wordlist.py from:", __file__)
 
 class WordList:
     """

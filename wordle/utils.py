@@ -1,4 +1,3 @@
-# wordle/utils.py
 from typing import List
 
 def evaluate_guess(secret: str, guess: str) -> List[str]:
@@ -18,7 +17,7 @@ def evaluate_guess(secret: str, guess: str) -> List[str]:
     for i in range(5):
         if guess[i] == secret[i]:
             result[i] = 'G'
-            secret_chars[i] = None  # consume
+            secret_chars[i] = None  
 
     # Second pass: yellows (present but different position)
     for i in range(5):

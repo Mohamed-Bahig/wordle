@@ -1,4 +1,3 @@
-# wordle/game.py
 from .wordlist import WordList
 from .utils import evaluate_guess, pretty_feedback
 from typing import List, Dict
